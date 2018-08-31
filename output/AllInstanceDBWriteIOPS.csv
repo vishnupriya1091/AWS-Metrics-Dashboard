@@ -1,0 +1,5 @@
+Instance-Id,AllInstanceDBWriteIOPS
+auroradb1-us-east-2b,0
+rds2,0
+replica2,0
+tutorial-db-instance,0

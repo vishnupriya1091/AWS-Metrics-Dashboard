@@ -1,0 +1,5 @@
+Instance-Id,AllInstanceDBReadThroughput
+auroradb1-us-east-2b,0
+rds2,136.521956504
+replica2,136.533333485
+tutorial-db-instance,136.519681972
