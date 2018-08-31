@@ -7,7 +7,7 @@ URL of the application - http://52.15.80.38/view.html
 
 The output folder consists of all the csv files generated based on the user click.
 pyscripts folder  - has the backend python code to fetch the instance results using boto3 api.
-API - Use http://52.15.80.38/index.php?display=(:text of the parameter in the web page)
+API - Use http://52.15.80.38/index.php?display= <:text of the parameter in the web page>
 
 Command line usage for python -
 python get_user_request.py <user_request>
