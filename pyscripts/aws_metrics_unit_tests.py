@@ -3,16 +3,11 @@ import boto3
 import aws_lib_functions
 
 # can be retrieved from a separate file - but using as global variables for now
-access_key = "AKIAJVUGDZPQOZTV5M6Q"
-secret_key = "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"
+access_key = "AKIAJJPAIGENQJLA2QLA"
+secret_key = "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"
 default_region = "us-east-2"
 
 class BasicConnectionTest(unittest.TestCase):
-"""
-
-Unit Test to avoid null values
-
-"""
     def test_connection(self):
         client = boto3.client('ec2')
         self.assertIsNotNone(client)
@@ -28,7 +23,8 @@ Unit Test to avoid null values
 		metric_time_period = 60
 		metric_statistic = 'Average'
 		metric_result_unit = 'Percent'
-		self.assertIsNotNone(aws_lib_functions.get_aws_instance_metrics(access_key,secret_key,default_region,metric_namespace,cpu_metric_name,			dimension_name,instance_id,metric_time_period,metric_statistic,metric_result_unit))
+		self.assertIsNotNone(aws_lib_functions.get_aws_instance_metrics(
+		access_key,secret_key,default_region,metric_namespace,cpu_metric_name,	dimension_name,instance_id,metric_time_period,metric_statistic,metric_result_unit))
 
     def test_rds_instance(self):
         self.assertIsNotNone(aws_lib_functions.get_all_db_instances(access_key, secret_key,default_region))

@@ -1,5 +1,5 @@
 Instance-Id,AllInstanceDBReadThroughput
 auroradb1-us-east-2b,0
-rds2,136.521956504
-replica2,136.533333485
-tutorial-db-instance,136.519681972
+rds2,170.652445914
+replica2,170.666097825
+tutorial-db-instance,170.643347047

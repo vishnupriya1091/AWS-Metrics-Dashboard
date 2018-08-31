@@ -1,8 +1,8 @@
 from aws_lib_functions import *
 
 # can be retrieved from a separate file - but using as global variables for now
-access_key = "AKIAJVUGDZPQOZTV5M6Q"
-secret_key = "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"
+access_key = "AKIAJJPAIGENQJLA2QLA"
+secret_key = "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"
 default_region = "us-east-2"
 
 def get_user_operation(userFuncName):
