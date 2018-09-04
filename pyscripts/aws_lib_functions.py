@@ -157,8 +157,6 @@ def print_to_csv_file(result,fileName):
 	Method to print the result to json
 	
 	"""
-	
-	current_dir = os.path.abspath(os.curdir)
 	folder_dir = os.path.abspath(os.curdir)
 	outputFileName = folder_dir+'/output/'+fileName+'.csv'
 	os.system("sudo touch "+outputFileName)
@@ -170,7 +168,3 @@ def print_to_csv_file(result,fileName):
 		i = i+"\r\n"
 		f.write(i)
 	f.close()
-
-	
-	
-	

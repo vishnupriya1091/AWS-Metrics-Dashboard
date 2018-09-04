@@ -1,5 +1,5 @@
 Instance-Id,AllInstanceDBUsage
-auroradb1-us-east-2b,6.79115054361
-rds2,1.18935815504
-replica2,1.14828193017
-tutorial-db-instance,1.33025956284
+auroradb1-us-east-2b,7.23037070482
+rds2,1.22229425869
+replica2,1.05555555556
+tutorial-db-instance,1.29166666667
